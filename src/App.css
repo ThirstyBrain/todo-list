@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  font-family: "Tajawal",cursive;
+  background-color: #2f74c0;
+  align-items: center;
+  flex-direction: column;
 }
-
+.heading{
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 30px 0;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+@media(max-width:100px){
+  .heading{
+    margin: 15px 0;
+    font-size: 35px;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
